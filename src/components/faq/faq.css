@@ -1,0 +1,34 @@
+.faq{
+    background: #fff;
+}
+
+.faq .box{
+    padding: 128px 0;
+}
+
+.faq .text{
+    width: 30%;
+    margin-right: 40px;
+}
+
+.faq .text h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 38px;
+    font-weight: 600;
+    color: rgba(40, 41, 56, 1);
+    margin-bottom: 16px;
+}
+
+.faq .text a{
+    display: inline-block;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: rgba(36, 5, 242, 1);
+    margin-bottom: 16px;
+}
+
+.faq .accordian{
+    width: 70%;
+}
+

@@ -1,0 +1,52 @@
+.accordian-item{
+    position: relative;
+    border-bottom: 2px solid #ECECF1;
+    padding-bottom: 32px;
+    margin-bottom: 32px;
+}
+
+.accordian-item:last-child{
+    border-bottom: 0;
+}
+
+.accordian-item h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    color: #282938;
+    margin-bottom: 16px;
+    position: relative;
+    padding-left: 59px;
+    cursor: pointer;
+}
+
+.accordian-item .number{
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    color: #2405F2;
+    padding-right: 59px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.accordian-item .icons{
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    right: 0px;
+    color: #282938;
+}
+
+.accordian-item p {
+    width: 626px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    color: #282938;
+    margin-left: 30px;
+}
