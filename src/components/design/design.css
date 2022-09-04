@@ -1,0 +1,72 @@
+.design{
+    padding: 128px 0;
+    background: #F4F6FC;
+}
+
+.design .design-title{
+    text-align: center;
+}
+
+.design .design-title p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #282938;
+}
+
+.design .design-title h2{
+    width: 630px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 64px;
+    color: #282938;
+    margin: 0 auto;
+    margin-top: 12px;
+    margin-bottom: 42px;
+}
+
+.design .box{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 32px;
+}
+
+.design .box .item{
+    width: 31%;
+    height: 316px;
+    background: #fff;
+    padding: 55px 46px;
+    padding-right: 32px;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+    box-shadow: 0;
+    transition: box-shadow 1s;
+    
+}
+  
+.design .box .item:hover {
+    box-shadow: 0 0 12px;
+}
+
+.design .box .item i{
+    font-size: 32px;
+    color: #2405F2;
+}
+
+.design .box .item h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    color: #282938;
+    margin-top: 23px;
+    margin-bottom: 12px;
+}
+
+.design .box .item p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #282938;
+}
