@@ -1,31 +1,20 @@
-import './App.css';
-import Banner from './components/banner/Banner';
-import Blog from './components/blog/Blog';
-import Client from './components/client/Client';
-import CopyRight from './components/copyright/CopyRight';
-import Design from './components/design/Design';
-import Faq from './components/faq/Faq';
-import Footer from './components/footer/Footer';
-import StartUp from './components/inquiry/StartUp';
-import Navbar from './components/navbar/Navbar';
-import Project from './components/project/Project';
-import Work from './components/work/Work';
+import "./App.css";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "./pages/Home";
+import About from "./pages/about/About";
+import Contact from "./pages/contact/Contact";
+import Features from "./pages/features/Features";
 
 function App() {
   return (
-    <>
-      <Navbar></Navbar>
-      <Banner></Banner>
-      <Work></Work>
-      <Project></Project>
-      <Design></Design>
-      <Client></Client>
-      <Faq></Faq>
-      <StartUp></StartUp>
-      <Blog></Blog>
-      <Footer></Footer>
-      <CopyRight></CopyRight>
-    </>
+    <BrowserRouter>
+    <Routes>
+      <Route path="/" element={<Home />}></Route>
+      <Route path="/about" element={<About />}></Route>
+      <Route path="/contact" element={<Contact />}></Route>
+      <Route path="/features" element={<Features />}></Route>
+    </Routes>
+  </BrowserRouter>
   );
 }
 

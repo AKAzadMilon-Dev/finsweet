@@ -31,7 +31,15 @@ nav .nav-item ul{
     font-weight: 500;
 }
 
-nav .nav-item a{
+nav .nav-item ul li{
+    cursor: pointer;
+}
+
+nav .nav-item ul li a{
+    color: #fff;
+}
+
+nav .nav-item .btn{
     display: inline-block;
     margin-left: 48px;
     color: #fff;
