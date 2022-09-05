@@ -6,10 +6,12 @@
 .startup .box .img{
     width: 50%;
     position: relative;
+    box-sizing: border-box;
 }
 
-.startup .img img{
+.startup .img img {
     width: 100%;
+    height: 100%;
     display: block;
 }
 
@@ -99,6 +101,7 @@
     color: #1B1C2B;
     margin-top: 24px;
     margin-bottom: 28px;
+    cursor: pointer;
 }
 
 .startup .text a{
