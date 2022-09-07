@@ -1,0 +1,66 @@
+.working{
+    padding: 128px 0;
+}
+
+.working .title h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 64px;
+    text-align: center;
+    width: 630px;
+    margin: 0 auto;
+}
+
+.working .box{
+    margin-top: 48px;
+}
+
+.working .item{
+    width: 31%;
+    background: #F4F6FC;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+    margin-right: 32px;
+}
+
+.working .item img{
+    width: 32px;
+    height: 32px;
+    margin-bottom: 28px;
+}
+
+.working .item h4{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    margin-bottom: 12px;
+}
+
+.working .item p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    width: 324px;
+}
+
+.working .brand{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 48px;
+}
+
+.working .branduser{
+    width: 15%;
+}
+
+.working .brand .img{
+    width: 85%;
+}
+
+.working .brand .img img {
+    margin-left: 59px;
+    margin-top: 30px;
+}

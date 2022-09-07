@@ -1,6 +1,7 @@
 .mission {
   background: #eef4fa;
-  padding: 128px 0;
+  padding-top: 128px;
+  padding-bottom: 30px;
 }
 
 .mission .box {

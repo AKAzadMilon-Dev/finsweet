@@ -4,6 +4,10 @@ import AboutUs from '../components/about/AboutUs';
 import Goal from '../components/about/Goal';
 import Follow from '../components/about/Follow';
 import Mission from '../components/about/Mission';
+import Working from '../components/about/Working';
+import Footer from '../components/footer/Footer';
+import CopyRight from '../components/copyright/CopyRight';
+import Team from '../components/about/Team';
 
 const About = () => {
   return (
@@ -13,6 +17,10 @@ const About = () => {
       <Goal></Goal>
       <Follow></Follow>
       <Mission></Mission>
+      <Working></Working>
+      <Team></Team>
+      <Footer></Footer>
+      <CopyRight></CopyRight>
     </>
   )
 }
