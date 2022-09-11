@@ -1,0 +1,48 @@
+.workview{
+    background: #F4F6FC;
+}
+
+.workview .item{
+    padding: 96px 0;
+    text-align: center;
+}
+
+.workview h4{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #282938;
+}
+
+.workview h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 64px;
+    color: #282938;
+    margin-top: 4px;
+    margin-bottom: 24px;
+}
+
+.workview p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #282938;
+    width: 733px;
+    margin: 0 auto;
+    margin-bottom: 32px;
+}
+
+.workview .icons{
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.workview .icons img{
+    margin-right: 28px;
+}

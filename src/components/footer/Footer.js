@@ -31,9 +31,9 @@ const Footer = () => {
             </p>
             <div className="icons">
               <img src="assets/images/facebook.png" alt="facebook" />
-              <img src="assets/images/twiter.png" alt="facebook" />
-              <img src="assets/images/instagram.png" alt="facebook" />
-              <img src="assets/images/linkdin.png" alt="facebook" />
+              <img src="assets/images/twiter.png" alt="twiter" />
+              <img src="assets/images/instagram.png" alt="instagram" />
+              <img src="assets/images/linkdin.png" alt="linkdin" />
             </div>
           </div>
         </div>
