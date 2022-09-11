@@ -37,7 +37,6 @@ const Faq = () => {
   ]);
 
     const handleOpen = (id) => {
-        // accordian[id].state = !accordian[id].state;
       accordian.map((item, index) => {
         if (index != id) {
           item.state = false;
